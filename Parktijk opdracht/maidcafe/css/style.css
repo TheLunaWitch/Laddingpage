@@ -1,0 +1,107 @@
+*{
+	width: 968px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+body{
+	background-color: skyblue;
+}
+
+h1{
+background-color:lightblue;
+text-align: center;
+}
+
+nav{
+	margin: 10px 0;
+	display: flex;   
+	justify-content: space-around;
+	background-color: whitesmoke;
+ 
+}
+
+nav :hover {
+    color: white;
+    background-color: lightblue;
+    border: solid white;
+}
+
+nav a{
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	}
+
+img{
+	display: block;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+main{
+	background-color: whitesmoke;
+}
+
+h2{
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.text{
+	text-align: center;
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+
+footer {
+    background-color:lightblue;
+    padding-bottom: 15px;
+}
+
+
+li{
+  list-style-type: none;
+}
+
+li :hover{
+	color: white;
+}
+
+
+.wrapper {
+    width: 968px;
+    margin: 0 auto;
+}
+.maidbanner{
+	height: 400px;
+ 	background-image: url("../img/maidbanner.jpg");
+ 	background-color: #cccccc;
+ 	background-size: cover;
+}
+#button{
+	width: 20%;
+	height: 10%;
+	margin-top: 20%;
+	margin-left: 9%;
+}
+.button-text{
+	margin-left: 13%;
+	color: darkblue;
+	font-size: ;
+}
+.texten{
+	text-align: center;
+	font-family: Jura;
+    font-size: 16px;
+    color: #221c1e;
+    line-height: 32px;
+}
+.texten2{
+	text-align: center;
+	font-family: Jura;
+    font-size: 28px;
+    color: #221c1e;
+    line-height: 32px;
+}

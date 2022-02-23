@@ -1,0 +1,10 @@
+color codes from gif image index.php
+
+#142230 (black blue)
+#c8cfd8 (White blue)
+#284b76 (medium blue)
+#203957 (dark blue)
+#326296 (light blue)
+#3d444c (dark gray)
+#586064 (light gray)
+

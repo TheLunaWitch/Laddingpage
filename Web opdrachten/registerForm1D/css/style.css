@@ -1,0 +1,15 @@
+.form{
+	background-color: darkred;
+	padding: 20px;
+	border-radius: 30px;
+	border: 1px solid black;
+
+}
+
+.form-group{
+	margin: 10px;
+	width: 400px;
+	padding: 10px 20px;
+	color: white;	
+	border: 1px double #ff6347;
+}

@@ -1,0 +1,38 @@
+*{
+	margin:  0;
+	padding: 0;
+}
+.wrapper{
+	width: 968px;
+	margin: 0 auto;
+}
+
+header{
+	background-color: hotpink;
+}
+
+.logo-name{
+	display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+	color: darkviolet;
+}
+
+nav a{
+	color: mediumpurple;
+	padding: 5px;
+	border: 1px solid lightcoral;
+	text-decoration: none;
+	background-color: lightgrey;
+	margin: 20px;
+}
+
+img{
+
+}	width: 50px;

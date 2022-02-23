@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Javascript</title>
+</head>
+<body>
+	<header>
+		<h1>Javascript</h1>
+	</header>
+	<main>
+		<p id="Greeting"></p>
+		<button id="button"> Klik hier!</button>
+		<p id="text-hidden" style="display: none;">Ha, nu ben ik te zien!!</p>
+	</main>
+	<footer>
+		
+	</footer>
+<!-- -----------------------------------------Javascript------------------------------------- -->
+	<script>
+
+		//let Age = prompt("Welkom op onze website, Hoe oud ben je?","Vul hier je leeftijd in");
+		//if(Age >= 18){
+			//document.write("Je bent oud genoeg om te zuipen, want je bent " + Age + ". Drink, maar doe het met maten.");
+		//}
+		//else if(Age < 18){
+			//document.write("Je bent niet oud genoeg om te zuipen, want je bent " + Age + ". Ga geen alcohol drinken, want dat is niet goed voor je.");
+		//}
+
+		let name = prompt("Wat is je naam?", "Vul je naam in");
+		if (name.length > 0) {
+			document.getElementById('Greeting').innerText = "Hallo, " + name + " Welkom op mijn site!";
+		}
+		//Button
+		document.getElementById('button').addEventListener ('click', function() {
+		document.getElementById('text-hidden').style.display = 'block';
+		document.getElementById('text-hidden').style.fontSize = '55px';
+		})
+		
+
+
+	</script>
+</body>
+</html>

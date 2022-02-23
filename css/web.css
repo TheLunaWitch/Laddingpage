@@ -1,0 +1,25 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  padding: 20px;
+}
+
+nav a{
+  color: #8289b2;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #b8a7cd;
+  border: solid #b8a7cd 4px;
+}
+
+body{
+    background-image: url('https://i.pinimg.com/originals/9b/ee/9c/9bee9ccfece6c7750dca6fc3708b5252.gif');
+    background-size: 2050px;
+    background-position: center;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}

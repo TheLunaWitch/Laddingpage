@@ -1,0 +1,25 @@
+* {
+    padding: 10px;
+    margin: auto;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+main {
+    margin: 10px 0;
+    background-color: ghostwhite;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: royalblue;
+}
+
+header,
+footer {
+    background-color: darkblue;
+    padding-bottom: 90px;
+}

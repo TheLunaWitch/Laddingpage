@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper{
+    width: 968px;
+    margin: 0 auto;
+    border: 3px orange dotted;
+}
+
+header{
+    text-align: center;
+}
+header img{
+    width: 300px;
+}
+
+main{
+    margin: 40px;
+}
+
+main .wrapper{
+display: flex;
+justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ a{
+    font-size: 13px;
+    text-decoration: none;
+    border-bottom: 4px red dotted;
+    background-color: orange;
+    padding: 7px;
+    color: yellow;
+}
+
+h1{
+    text-align: center;
+}
+
+.dieren img{
+    width: 120px;
+}
+
+.dieren{
+    background-color: orange;
+    border: 1px black solid;
+    text-align: center;
+    height: 170px;
+    width: 170px;
+}
+
+footer .wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer img{
+    width: 150px;
+}

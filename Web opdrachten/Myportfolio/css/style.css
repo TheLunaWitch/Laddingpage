@@ -1,0 +1,80 @@
+
+img{
+	width: 500px;
+}
+
+* {
+    padding: 10px;
+    margin: auto;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+h1{
+    color: ghostwhite;
+    font-family: Quicksand;
+    font-size: 30px;
+}
+
+main {
+    margin: 10px 0;
+    background-color: ghostwhite;
+}
+
+h2 {
+    font-size: 34px;
+    color: black;
+}
+
+p{
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+nav a {
+    border: black;
+    background-color: ghostwhite;
+    width: 400px;
+    text-align: center;
+}
+
+nav :hover {
+    color: white;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+a :hover {
+    color: white;
+}
+
+body {
+    background-color: darkred;
+    padding-top: 95px;
+}
+
+header,
+footer {
+    background-color:#000000;
+    padding-bottom: 15px;
+}
+
+footer p {
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.wrapper {
+    width: 968px;
+    margin: 0 auto;
+}

@@ -1,0 +1,46 @@
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.tekt{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+}
+
+P{
+    margin: -10px;
+    color: white;
+    font-size: 30px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  padding: 20px;
+}
+
+nav a{
+  color: #b1a9c9;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #e42c5c;
+  border: solid #e42c5c 4px;
+}
+
+body{
+    background-image: url('https://i.redd.it/m6ptifyhde321.gif');
+    background-size: 2050px;
+    background-position: center;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}

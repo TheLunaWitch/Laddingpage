@@ -1,0 +1,35 @@
+nav a {
+    color: black;
+    border: black;
+    background-color: ghostwhite;
+    width: 300px;
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav :hover {
+    color: white;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+p{
+    font-size: 20px;
+}
+
+ul :hover {
+ color: darkred;
+ background-color: black;
+}
+
+img{
+    position: relative; top: -200px; 
+    float: right;
+    width: 300px;
+}

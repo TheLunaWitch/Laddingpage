@@ -1,0 +1,22 @@
+ *{
+	width: 968px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+ img{
+	display: block;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+li{
+  list-style-type: none;
+}
+
+li :hover{
+	color: white;
+}
+
+
